@@ -1,5 +1,4 @@
 var Calculadora = {
-
 visor: document.getElementById("display"),
 valorVisor: "0",
 operacion: "",
@@ -59,7 +58,6 @@ AumentaBoton: function(elemento){
 		elemento.style.height = "62.91px";
 		}
 	},
-
 
 // Metodos Get Valores de teclas Numericas
 MetodosTeclasNumericas: function(){
@@ -187,7 +185,6 @@ realizarOperacion: function(Valor1, Valor2, operacion){
 				this.Resultado = eval(Math.sqrt(Valor1));
 		}
 	},
-
 
 ActualizarVisor: function(){
 		this.visor.innerHTML = this.valorVisor;
